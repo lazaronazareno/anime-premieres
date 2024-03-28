@@ -4,11 +4,11 @@ import Footer from './Footer'
 
 const LayoutWrapper = ({ children }) => {
   return (
-    <div>
+    <>
       <Header />
       <main>{children}</main>
       <Footer />
-    </div>
+    </>
   )
 }
 

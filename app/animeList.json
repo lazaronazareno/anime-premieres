@@ -1,0 +1,488 @@
+[
+  {
+    "name": "Kono Subarashii Sekai ni Shukufuku wo! 3",
+    "slug": "konosuba-3",
+    "premiere": "10/04/2024 11:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=mqFMOYsOUcg",
+    "infoUrl": "https://www.crunchyroll.com/es/series/GYE5K3GQR/konosuba--gods-blessing-on-this-wonderful-world"
+  },
+  {
+    "name": "Kimetsu no Yaiba: Hashira Geiko-hen",
+    "slug": "kimetsu-no-yaiba-hashira",
+    "premiere": "12/05/2024 11:15 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=Tf31dGdlWxE",
+    "infoUrl": "https: //www.crunchyroll.com/es/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
+  },
+  {
+    "name": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+    "slug": "mushoku-tensei-2-2",
+    "premiere": "07/04/2024 12:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=L5broLUI1m4",
+    "infoUrl": "https://www.crunchyroll.com/es/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation"
+  },
+  {
+    "name": "Tensei Shitara Slime Datta Ken 3",
+    "slug": "tensura-3",
+    "premiere": "05/04/2024 11:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=HaI4kX5gkPU",
+    "infoUrl": "https://www.crunchyroll.com/es/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime"
+  },
+  {
+    "name": "Maou Gakuin no Futekigousha 2",
+    "slug": "maou-gaokuin-2-2",
+    "premiere": "12/04/2024 10:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=qVR66IxA2ns",
+    "infoUrl": "https://www.crunchyroll.com/es/series/GY243NN0R/the-misfit-of-demon-king-academy"
+  },
+  {
+    "name": "Boku no Hero Academia 7",
+    "slug": "boku-no-hero-7",
+    "premiere": "04/04/2024 5:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=IziwkeGaBaA",
+    "infoUrl": "https://www.crunchyroll.com/es/series/G6NQ5DWZ6/my-hero-academia"
+  },
+  {
+    "name": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
+    "slug": "tensei-shitara-7-prince",
+    "premiere": "01/04/2024 12:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=aK8Gtxw-9bE",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Kami wa Game ni Ueteiru",
+    "slug": "kami-wa-game-ueteiru",
+    "premiere": "01/04/2024 9:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=dtWHRG3FzQ8",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Kaijuu 8-Gou",
+    "slug": "kaijuu-8",
+    "premiere": "14/04/2024 11:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=7n_mFVPeApw",
+    "infoUrl": "https://www.crunchyroll.com/es/series/GG5H5XQ7D/kaiju-no-8"
+  },
+  {
+    "name": "Mahouka Koukou no Rettousei 3",
+    "slug": "mahouka-koukou-3",
+    "premiere": "05/04/2024 11:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=BFTlxoD1Szw",
+    "infoUrl": "https://www.crunchyroll.com/es/series/GRMGDGZVR/the-irregular-at-magic-high-school"
+  },
+  {
+    "name": "Tensei Kizoku Kantei Skill de Nariagaru",
+    "slug": "tensei-kizoku-kantei",
+    "premiere": "07/04/2024 11:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=QCtat7cw8CU",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
+    "slug": "lv2-kara-cheat-isekai",
+    "premiere": "08/04/2024 11:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=MUn_fypkCfU",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Ookami to Koushinryou: Merchant Meets the Wise Wolf (Spice and Wolf)",
+    "slug": "spice-and-wolf-remake",
+    "premiere": "01/04/2024 01:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=DuWQOwwI9z4",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node Sukikatte ni Ikiru Koto ni Shita",
+    "slug": "dekisokonai-to-yobareta",
+    "premiere": "01/04/2024 02:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=ciG19lWMsBs",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?",
+    "slug": "how-to-love-your-elf-bride",
+    "premiere": "04/04/2024 01:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=M3lb8-qaaTk",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Unnamed Memory",
+    "slug": "unnamed-memory",
+    "premiere": "09/04/2024 11:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=jKNscVwATwI",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Date a Live 5",
+    "slug": "date-a-live-5",
+    "premiere": "10/04/2024 11:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=xkbH8v2JFuk",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Re:Monster",
+    "slug": "re-monster",
+    "premiere": "01/04/2024 12:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=Eks6OyQNoEU",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "WIND BREAKER",
+    "slug": "wind-breaker",
+    "premiere": "05/04/2024 12:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=7bdg-x1cMRA",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Yozakura-san Chi no Daisakusen",
+    "slug": "yozakura-san",
+    "premiere": "07/04/2024 05:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=xT3AryUklAk",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "The New Gate",
+    "slug": "the-new-gate",
+    "premiere": "13/04/2024 01:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=VjeuqBstvdA",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Jiisan Baasan Wakagaeru",
+    "slug": "jiisan-baasan",
+    "premiere": "07/04/2024 11:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=qwp85d_1VKI",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Bartender: Kami no Glass",
+    "slug": "bartender-kami-glass",
+    "premiere": "03/04/2024 12:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=y7wej3_qM9U",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Kaii to Otome to Kamikakushi",
+    "slug": "kaii-otome-kamikakushi",
+    "premiere": "10/04/2024 10:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=GeHpoLt-6n8",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Hananoi-kun to Koi no Yamai",
+    "slug": "hananoi-kun-koi-yamai",
+    "premiere": "04/04/2024 12:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=SYyAFIImIdA",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Sentai Daishikkaku",
+    "slug": "sentai-daishikkaku",
+    "premiere": "07/04/2024 04:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=17FpOu_2I04",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Sasayaku You ni Koi wo Utau",
+    "slug": "sasakoi",
+    "premiere": "13/04/2024 01:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=ZHNkXrs3siQ",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "One Room, Hiatari Futsuu, Tenshi-tsuki.",
+    "slug": "one-room-tenshi-tsuki",
+    "premiere": "30/03/2024 10:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=r98aLl_hMwo",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Henjin no Salad Bowl",
+    "slug": "henjin-salada-bowl",
+    "premiere": "05/04/2024 01:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=ye1R9FKq0FE",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Yuru Camp△: SEASON 3",
+    "slug": "yuru-camp-3",
+    "premiere": "12/04/2024 12:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=LiweASOibE4",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Shinigami Bocchan to Kuro Maid 3rd Season",
+    "slug": "shinigami-bocchan-3",
+    "premiere": "07/04/2024 10:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=0IfvMDgeRjg",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Hibike! Euphonium 3",
+    "slug": "hibike-3",
+    "premiere": "07/04/2024 05:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=dzSh0bjmUVA",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Kuroshitsuji: Kishuku Gakkou-hen",
+    "slug": "kuroshitsuji-kishiku-gakkou",
+    "premiere": "13/04/2024 11:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=ibBNK47Fjgs",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Blue Archive The Animation",
+    "slug": "blue-archive",
+    "premiere": "07/04/2024 11:45 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=pGoc4_imTi0",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Yoru no Kurage wa Oyogenai",
+    "slug": "yoru-kurage-oyogenai",
+    "premiere": "06/04/2024 01:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=aqxpcoUTyEQ",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Seiyuu Radio no Uraomote",
+    "slug": "seiyuu-radio",
+    "premiere": "10/04/2024 09:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=UKxaO-nqeNk",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "The Fable",
+    "slug": "the-fable",
+    "premiere": "06/04/2024 01:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=gcZXJ8cxDpM",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Vampire Dormitory",
+    "slug": "vampire-dormitory",
+    "premiere": "07/04/2024 11:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=Y5K4iljAppE",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Tadaima, Okaeri",
+    "slug": "tadaima-okaeri",
+    "premiere": "08/04/2024 12:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=VlMzYDkJ2Qc",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Girls Band Cry",
+    "slug": "girls-band-cry",
+    "premiere": "05/04/2024 12:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=LYACbFOQDxw",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Kenka Dokugaku",
+    "slug": "kenka-dokugaku",
+    "premiere": "10/04/2024 01:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=Rd3w4aZpKdw",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Astro Note",
+    "slug": "astro-note",
+    "premiere": "05/04/2024 10:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=ZE_ZkK5sY3k",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Shuumatsu Train Doko e Iku?",
+    "slug": "shuumatsu-train",
+    "premiere": "01/04/2024 09:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=nSq3R-k6WZY",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Highspeed Etoile",
+    "slug": "highspeed-etoile",
+    "premiere": "05/04/2024 02:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=h9irlbBv8ng",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Karasu wa Aruji wo Erabanai",
+    "slug": "yatagarasu",
+    "premiere": "06/04/2024 12:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=EZhvPAfBZkE",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Boukyaku Battery TV",
+    "slug": "boukyaku-battery",
+    "premiere": "09/04/2024 12:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=5QCu65yQUps",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Touken Ranbu Kai: Kyoden Moyuru Honnouji",
+    "slug": "touken-ranbu-kai",
+    "premiere": "02/04/2024 11:00 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=yhWTqEku_KE",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "The iDOLM@STER Shiny Colors",
+    "slug": "idolmaster-shiny-colors",
+    "premiere": "05/04/2024 01:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=gUuQJEsNaDk",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Tonari no Youkai-san",
+    "slug": "tonari-youkai-san",
+    "premiere": "06/04/2024 02:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=oH4zARVzXY0",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Rinkai!",
+    "slug": "rinkai",
+    "premiere": "09/04/2024 11:30 AM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=0OQnmTbqiZI",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Ooi! Tonbo",
+    "slug": "ooi-tonbo",
+    "premiere": "05/04/2024 10:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=6XoUU4kbVhA",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Nijiyon Animation 2",
+    "slug": "nijiyon-2",
+    "premiere": "05/04/2024 10:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=u0JI7sZILGE",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Himitsu no AiPri",
+    "slug": "himitsu-aipri",
+    "premiere": "06/04/2024 10:00 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=QpATW6FKis0",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  },
+  {
+    "name": "Shadowverse Flame: Arc-hen",
+    "slug": "shadowverse-f-arc",
+    "premiere": "12/04/2024 09:30 PM",
+    "image": "",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=pSWESAdjtE0",
+    "infoUrl": "https://www.crunchyroll.com/es/"
+  }
+]

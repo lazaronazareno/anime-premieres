@@ -1,7 +1,9 @@
-import { Inter } from 'next/font/google'
+import { Advent_Pro, Dosis } from 'next/font/google'
 import './globals.css'
+import LayoutWrapper from '@/components/LayoutWrapper'
 
-const inter = Inter({ subsets: ['latin'] })
+export const dosisFont = Dosis({ subsets: ['latin'] })
+export const adventProFont = Advent_Pro({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Cuando Sale el Anime...',
@@ -12,7 +14,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className={`relative ${dosisFont.className}`}>
+        <LayoutWrapper>{children}</LayoutWrapper>
+      </body>
     </html>
   )
 }

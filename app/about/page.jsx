@@ -1,5 +1,5 @@
 import ExternalLink from '@/components/ExternalLink'
-import Marquee from '@/components/marquee'
+import Marquee from '@/components/Marquee'
 import React from 'react'
 
 const About = () => {

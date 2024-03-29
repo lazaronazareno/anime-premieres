@@ -20,7 +20,7 @@ const Page = async ({ params }) => {
 
   const anime = animeList.find((item) => item.slug === slug)
   return (
-    <div className='w-full h-screen text-center relative'>
+    <div className='w-full h-screen text-center relative overflow-hidden'>
       <div
         className={`absolute top-32 left-1/2 w-full -translate-x-1/2 bg-orange-400 bg-opacity-50`}
       >

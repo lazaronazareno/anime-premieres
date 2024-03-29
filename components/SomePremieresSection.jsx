@@ -8,7 +8,7 @@ const SomePremieresSection = async () => {
   const premieresList = animeList.slice(0, 6)
   return (
     <div className='w-full flex flex-col md:flex-row items-center p-4 gap-2 md:gap-0 bg-white text-black'>
-      <div className='w-1/2'>
+      <div className='sm:w-1/2 w-3/5'>
         <Image
           width='600'
           height='600'
@@ -18,7 +18,7 @@ const SomePremieresSection = async () => {
           priority
         />
       </div>
-      <div className='w-1/2 flex flex-col gap-2 items-center text-xl md:text-2xl justify-center px-2'>
+      <div className='sm:w-1/2 flex flex-col gap-2 items-center text-xl md:text-2xl justify-center px-2 text-center'>
         {premieresList.map((anime) => (
           <Link
             className='text-blue-600 hover:text-orange-600'

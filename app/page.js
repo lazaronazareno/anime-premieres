@@ -7,7 +7,7 @@ export default function Home() {
     <main
       className={`relative flex min-h-screen flex-col items-center justify-between ${adventProFont.className}`}
     >
-      <div className='w-full max-w-7xl pb-12'>
+      <div className='w-full max-w-7xl sm:pb-8 pb-28'>
         <div className='py-20 px-4 flex flex-col gap-2'>
           <h1 className='md:text-7xl text-6xl font-semibold'>
             ¿Cuando sale el anime...?

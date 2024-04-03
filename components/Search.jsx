@@ -39,13 +39,13 @@ const Search = ({ animeList }) => {
       <div className='p-4 grid 2xl:grid-cols-4 lg:grid-cols-3 grid-cols-2 gap-2 items-center'>
         {filteredList.map((item) => (
           <Link
-            className='hover:text-orange-500 flex sm:w-72 lg:w-80 2xl:w-96 gap-2 hover:animate-pulse'
+            className='hover:text-orange-500 flex flex-col sm:flex-row sm:w-72 lg:w-80 2xl:w-96 h-full gap-2 hover:animate-pulse'
             href={`/${item.slug}`}
             key={item.slug}
           >
             <Image
-              className='w-24 max-w-24 md:w-32 md:max-w-32 2xl:w-40 2xl:max-w-40 2xl:h-52 h-44 aspect-[2/1] '
-              alt=''
+              className='w-full sm:w-24 sm:max-w-24 md:w-32 md:max-w-32 2xl:w-40 2xl:max-w-40 2xl:h-52 h-44 aspect-[2/1] '
+              alt={item.name}
               src={item.image}
               width={100}
               height={60}

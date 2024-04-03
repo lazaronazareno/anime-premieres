@@ -24,8 +24,10 @@ const Page = async ({ params }) => {
       <div
         className={`absolute top-32 left-1/2 w-full -translate-x-1/2 bg-orange-400 bg-opacity-50`}
       >
-        <p className='text-3xl'>¿Cuando sale</p>
-        <h2 className={`text-6xl font-semibold ${adventProFont.className}`}>
+        <p className='sm:text-3xl text-2xl'>¿Cuando sale</p>
+        <h2
+          className={`sm:text-6xl text-5xl font-semibold ${adventProFont.className}`}
+        >
           {anime.name}?
         </h2>
       </div>

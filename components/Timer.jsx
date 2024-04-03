@@ -53,7 +53,7 @@ const Timer = ({ date }) => {
     <>
       {remainingTime ? (
         <>
-          <span className='text-2xl absolute bottom-80 -translate-x-1/2 translate-y-2/3 bg-orange-400 text-blue-950 rounded-t-md p-2  '>
+          <span className='w-max text-xl 2xl:text-4xl absolute bottom-56 2xl:bottom-80 -translate-x-1/2 translate-y-1/3 bg-orange-400 text-blue-950 rounded-t-md p-2 pb-4'>
             {message}
           </span>
           <div

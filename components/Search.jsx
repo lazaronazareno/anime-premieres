@@ -1,7 +1,8 @@
 'use client'
+import { formatDateString } from '@/app/utils'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 const Search = ({ animeList }) => {
   const [search, setSearch] = useState('')
@@ -52,7 +53,7 @@ const Search = ({ animeList }) => {
             />
             <div className='w-full flex flex-col gap-2 justify-center'>
               <p>{item.name}</p>
-              <p>{item.premiere}</p>
+              <p>{formatDateString(item.premiere)}</p>
             </div>
           </Link>
         ))}

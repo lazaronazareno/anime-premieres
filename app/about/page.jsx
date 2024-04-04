@@ -2,6 +2,12 @@ import ExternalLink from '@/components/ExternalLink'
 import Marquee from '@/components/Marquee'
 import React from 'react'
 
+export const metadata = {
+  title: '+Info | Cuando Sale el anime...',
+  description:
+    'Sobre Cuando Sale el Anime, informacion del autor, futuro y referencias.'
+}
+
 const About = () => {
   return (
     <div className='w-full min-h-screen justify-center py-16 px-4 text-2xl flex flex-col md:gap-12 gap-4 text-center pb-24 md:pb-16'>

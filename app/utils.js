@@ -4,7 +4,7 @@ export function formatDateString(dateTimeString) {
   const timestamp = Date.parse(dateObject)
   const formattedDateString = new Date(timestamp).toISOString() */
 
-  const [dateString, timeString] = dateTimeString.split(' ')
+  /*   const [dateString, timeString] = dateTimeString.split(' ')
 
   const dateParts = dateString.split('/')
 
@@ -25,6 +25,21 @@ export function formatDateString(dateTimeString) {
   const dateObject = new Date(year, month, day, hour, minute, second)
 
   const formattedDateString = dateObject.toISOString()
+
+  return formattedDateString */
+  const options = {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true
+  }
+
+  const formattedDateString = dateTimeString.toLocaleDateString(
+    'es-ES',
+    options
+  )
 
   return formattedDateString
 }

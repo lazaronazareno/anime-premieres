@@ -49,7 +49,8 @@ const Timer = ({ date }) => {
 
       if (targetDate < now) {
         targetDate.setDate(targetDate.getDate() + 7)
-        targetDate.setHours(targetDate.getHours())
+        // ESTA MAL MUY MAL... ARREGLO MOMENTARIO
+        targetDate.setHours(targetDate.getHours() + 3)
         setMessage('El siguiente capitulo sale en:')
       }
 

@@ -2,7 +2,7 @@
 import { formatDateString } from '@/app/utils'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { Suspense, useState } from 'react'
 
 const Search = ({ animeList }) => {
   const [search, setSearch] = useState('')

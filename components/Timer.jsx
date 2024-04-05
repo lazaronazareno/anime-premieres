@@ -26,10 +26,10 @@ const Timer = ({ date }) => {
 
       // Convert both dates to the user's time zone
       const nowInUserTimeZone = new Date(
-        now.toLocaleString('es-AR', { timeZone: userTimeZone })
+        now.toLocaleString('en-US', { timeZone: userTimeZone })
       )
       const targetDateInUserTimeZone = new Date(
-        targetDate.toLocaleString('es-AR', { timeZone: userTimeZone })
+        targetDate.toLocaleString('en-US', { timeZone: userTimeZone })
       )
 
       console.log(userTimeZone)
@@ -37,7 +37,7 @@ const Timer = ({ date }) => {
       console.log(targetDateInUserTimeZone)
 
       if (targetDateInUserTimeZone < nowInUserTimeZone) {
-        targetDateInUserTimeZone.setDate(targetDate.getDate() + 7)
+        targetDateInUserTimeZone.setDate(targetDate.getDate() + 6)
         setMessage('El siguiente capitulo sale en:')
       }
 

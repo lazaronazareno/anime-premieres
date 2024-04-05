@@ -33,11 +33,12 @@ export function formatDateString(dateTimeString) {
     year: 'numeric',
     hour: '2-digit',
     minute: '2-digit',
-    hour12: true
+    hour12: true,
+    timeZone: 'America/Argentina/Buenos_Aires'
   }
 
   const formattedDateString = dateTimeString.toLocaleDateString(
-    'es-ES',
+    'es-AR',
     options
   )
 

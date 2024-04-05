@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
     title: `Cuando Sale ${anime.name}`,
     description: `El anime ${anime.name} se estrena el ${new Date(
       anime.premiere
-    ).toLocaleString()}`
+    ).toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' })}`
   }
 }
 

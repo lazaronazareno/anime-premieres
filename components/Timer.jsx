@@ -21,12 +21,27 @@ const Timer = ({ date }) => {
       const now = new Date()
       const targetDate = new Date(date)
 
-      if (targetDate < now) {
-        targetDate.setDate(targetDate.getDate() + 7)
+      // Get the user's time zone
+      const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
+
+      // Convert both dates to the user's time zone
+      const nowInUserTimeZone = new Date(
+        now.toLocaleString('en-US', { timeZone: userTimeZone })
+      )
+      const targetDateInUserTimeZone = new Date(
+        targetDate.toLocaleString('en-US', { timeZone: userTimeZone })
+      )
+
+      console.log(userTimeZone)
+      console.log(nowInUserTimeZone)
+      console.log(targetDateInUserTimeZone)
+
+      if (targetDateInUserTimeZone < nowInUserTimeZone) {
+        targetDateInUserTimeZone.setDate(targetDate.getDate() + 7)
         setMessage('El siguiente capitulo sale en:')
       }
 
-      const difference = targetDate - now
+      const difference = targetDateInUserTimeZone - nowInUserTimeZone
 
       if (difference <= 0) {
         clearInterval(interval)

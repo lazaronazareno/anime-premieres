@@ -20,6 +20,9 @@ const Timer = ({ date }) => {
     const interval = setInterval(() => {
       const now = new Date()
       const targetDate = new Date(date)
+      console.log('now', now)
+      console.log('date', date)
+      console.log('targetDate', targetDate)
 
       // Get the user's time zone
       const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
@@ -39,7 +42,7 @@ const Timer = ({ date }) => {
       console.log('targetTimezone', targetDateInUserTimeZone)
 
       if (targetDateInUserTimeZone < nowInUserTimeZone) {
-        targetDateInUserTimeZone.setDate(targetDate.getDate() + 7)
+        targetDateInUserTimeZone.setDate(targetDateInUserTimeZone.getDate() + 7)
         setMessage('El siguiente capitulo sale en:')
       }
 

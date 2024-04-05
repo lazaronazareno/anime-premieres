@@ -8,8 +8,6 @@ const HOUR = MINUTE * 60
 const DAY = HOUR * 24
 
 const Timer = ({ date }) => {
-  console.log('now outside effect', new Date())
-  console.log('date outside effect', date)
   const [remainingTime, setRemainingTime] = useState({
     days: 0,
     hours: 0,
@@ -18,44 +16,41 @@ const Timer = ({ date }) => {
   })
   const [message, setMessage] = useState('Para el estreno falta: ')
 
+  function changeTimezone(date, ianatz) {
+    // suppose the date is 12:00 UTC
+    let invdate = new Date(
+      date.toLocaleString('en-US', {
+        timeZone: ianatz
+      })
+    )
+
+    // then invdate will be 07:00 in Toronto
+    // and the diff is 5 hours
+    let diff = date.getTime() - invdate.getTime()
+
+    // so 12:00 in Toronto is 17:00 UTC
+    return new Date(date.getTime() - diff) // needs to substract
+  }
+
+  let here = new Date()
+  let there = changeTimezone(here, 'America/Buenos_Aires')
+
+  console.log(`Here: ${here.toString()}\server: ${there.toString()}`)
+
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date()
-      const targetDate = new Date(date)
+      const targetDate = date
       console.log('now', now)
       console.log('date', date)
       console.log('targetDate', targetDate)
 
-      // Get the user's time zone
-      const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
-
-      // Convert both dates to the user's time zone
-      const nowInUserTimeZone = new Date(
-        now.toLocaleString('en-US', { timeZone: userTimeZone })
-      )
-      const targetDateInUserTimeZone = new Date(
-        targetDate.toLocaleString('en-US', {
-          timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
-        })
-      )
-
-      const timezoneOffset = targetDateInUserTimeZone.getTimezoneOffset()
-
-      targetDateInUserTimeZone.setHours(
-        targetDateInUserTimeZone.getUTCHours() - timezoneOffset / 60
-      )
-
-      console.log('utcDate', timezoneOffset)
-      console.log('usertimezone', userTimeZone)
-      console.log('nowtimezone', nowInUserTimeZone)
-      console.log('targetTimezone', targetDateInUserTimeZone)
-
-      if (targetDateInUserTimeZone < nowInUserTimeZone) {
-        targetDateInUserTimeZone.setDate(targetDateInUserTimeZone.getDate() + 7)
+      if (targetDate < now) {
+        targetDate.setDate(targetDate.getDate() + 7)
         setMessage('El siguiente capitulo sale en:')
       }
 
-      const difference = targetDateInUserTimeZone - nowInUserTimeZone
+      const difference = targetDate - now
 
       if (difference <= 0) {
         clearInterval(interval)

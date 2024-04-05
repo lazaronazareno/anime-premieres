@@ -8,6 +8,8 @@ const HOUR = MINUTE * 60
 const DAY = HOUR * 24
 
 const Timer = ({ date }) => {
+  console.log('now outside effect', new Date())
+  console.log('date outside effect', date)
   const [remainingTime, setRemainingTime] = useState({
     days: 0,
     hours: 0,
@@ -37,6 +39,7 @@ const Timer = ({ date }) => {
         })
       )
 
+      console.log('utcDate', new Date(targetDate).getTimezoneOffset())
       console.log('usertimezone', userTimeZone)
       console.log('nowtimezone', nowInUserTimeZone)
       console.log('targetTimezone', targetDateInUserTimeZone)

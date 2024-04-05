@@ -39,7 +39,13 @@ const Timer = ({ date }) => {
         })
       )
 
-      console.log('utcDate', new Date(targetDate).getTimezoneOffset())
+      const timezoneOffset = targetDateInUserTimeZone.getTimezoneOffset()
+
+      targetDateInUserTimeZone.setHours(
+        targetDateInUserTimeZone.getUTCHours() - timezoneOffset / 60
+      )
+
+      console.log('utcDate', timezoneOffset)
       console.log('usertimezone', userTimeZone)
       console.log('nowtimezone', nowInUserTimeZone)
       console.log('targetTimezone', targetDateInUserTimeZone)

@@ -44,6 +44,8 @@ const Timer = ({ date }) => {
       console.log('now', now)
       console.log('date', date)
       console.log('targetDate', targetDate)
+      console.log('targetDate hour', targetDate.getHours())
+      console.log('targetDate date', targetDate.getDate())
 
       if (targetDate < now) {
         targetDate.setDate(targetDate.getDate() + 7)

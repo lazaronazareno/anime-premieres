@@ -29,15 +29,17 @@ const Timer = ({ date }) => {
         now.toLocaleString('en-US', { timeZone: userTimeZone })
       )
       const targetDateInUserTimeZone = new Date(
-        targetDate.toLocaleString('en-US', { timeZone: userTimeZone })
+        targetDate.toLocaleString('en-US', {
+          timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
+        })
       )
 
-      console.log(userTimeZone)
-      console.log(nowInUserTimeZone)
-      console.log(targetDateInUserTimeZone)
+      console.log('usertimezone', userTimeZone)
+      console.log('nowtimezone', nowInUserTimeZone)
+      console.log('targetTimezone', targetDateInUserTimeZone)
 
       if (targetDateInUserTimeZone < nowInUserTimeZone) {
-        targetDateInUserTimeZone.setDate(targetDate.getDate() + 6)
+        targetDateInUserTimeZone.setDate(targetDate.getDate() + 7)
         setMessage('El siguiente capitulo sale en:')
       }
 

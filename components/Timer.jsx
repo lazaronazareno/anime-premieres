@@ -16,36 +16,10 @@ const Timer = ({ date }) => {
   })
   const [message, setMessage] = useState('Para el estreno falta: ')
 
-  function changeTimezone(date, ianatz) {
-    // suppose the date is 12:00 UTC
-    let invdate = new Date(
-      date.toLocaleString('en-US', {
-        timeZone: ianatz
-      })
-    )
-
-    // then invdate will be 07:00 in Toronto
-    // and the diff is 5 hours
-    let diff = date.getTime() - invdate.getTime()
-
-    // so 12:00 in Toronto is 17:00 UTC
-    return new Date(date.getTime() - diff) // needs to substract
-  }
-
-  let here = new Date()
-  let there = changeTimezone(here, 'America/Buenos_Aires')
-
-  console.log(`Here: ${here.toString()}\server: ${there.toString()}`)
-
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date()
       const targetDate = date
-      console.log('now', now)
-      console.log('date', date)
-      console.log('targetDate', targetDate)
-      console.log('targetDate hour', targetDate.getHours())
-      console.log('targetDate date', targetDate.getDate())
 
       if (targetDate < now) {
         targetDate.setDate(targetDate.getDate() + 7)

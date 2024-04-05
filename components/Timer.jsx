@@ -21,13 +21,15 @@ const Timer = ({ date }) => {
       const now = new Date()
       const targetDate = new Date(date)
 
+      // Get the user's time zone
       const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
 
+      // Convert both dates to the user's time zone
       const nowInUserTimeZone = new Date(
-        now.toLocaleString({ timeZone: userTimeZone })
+        now.toLocaleString('es-AR', { timeZone: userTimeZone })
       )
       const targetDateInUserTimeZone = new Date(
-        targetDate.toLocaleString({ timeZone: userTimeZone })
+        targetDate.toLocaleString('es-AR', { timeZone: userTimeZone })
       )
 
       console.log(userTimeZone)

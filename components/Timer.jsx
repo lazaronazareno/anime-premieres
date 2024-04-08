@@ -19,10 +19,12 @@ const Timer = ({ date }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date()
-      const targetDate = new Date(date)
+      const targetDate = date
 
       if (targetDate < now) {
         targetDate.setDate(targetDate.getDate() + 7)
+        // ESTA MAL MUY MAL... ARREGLO MOMENTARIO
+        targetDate.setHours(targetDate.getHours() + 3)
         setMessage('El siguiente capitulo sale en:')
       }
 

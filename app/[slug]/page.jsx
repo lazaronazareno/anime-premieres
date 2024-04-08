@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
     title: `Cuando Sale ${anime.name}`,
     description: `El anime ${anime.name} se estrena el ${new Date(
       anime.premiere
-    ).toLocaleString()}`
+    ).toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' })}`
   }
 }
 
@@ -28,6 +28,7 @@ export async function generateStaticParams() {
 const Page = async ({ params }) => {
   const { slug } = params
   const anime = await getAnimeBySlug(slug)
+  const targetDate = new Date(anime.premiere)
 
   return (
     <Suspense>
@@ -44,7 +45,7 @@ const Page = async ({ params }) => {
           {
             <>
               <BackgroundVideo url={anime.url} />
-              <Timer date={anime.premiere} />
+              <Timer date={targetDate} />
             </>
           }
         </ClientGate>

@@ -27,19 +27,22 @@ export function formatDateString(dateTimeString) {
   const formattedDateString = dateObject.toISOString()
 
   return formattedDateString */
+
+  //Simular agregarle 3 horas... Arreglar
+  const newDate = new Date(dateTimeString)
+  newDate.setHours(newDate.getHours() + 3)
+
   const options = {
     day: '2-digit',
     month: '2-digit',
     year: 'numeric',
     hour: '2-digit',
     minute: '2-digit',
-    hour12: true
+    hour12: false,
+    timeZone: 'America/Argentina/Buenos_Aires'
   }
 
-  const formattedDateString = dateTimeString.toLocaleDateString(
-    'es-ES',
-    options
-  )
+  const formattedDateString = newDate.toLocaleDateString('es-AR', options)
 
   return formattedDateString
 }

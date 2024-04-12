@@ -14,23 +14,34 @@ const Timer = ({ date }) => {
     minutes: 0,
     seconds: 0
   })
-  const [message, setMessage] = useState('Para el estreno falta: ')
+  const [message, setMessage] = useState(
+    'El siguiente capitulo se estrena en: '
+  )
+
+  function differenceInDays(targetDate, now) {
+    const diff = targetDate - now
+    const diffInDays = Math.floor(diff / DAY)
+
+    return Math.floor(diffInDays / 7) * 7
+  }
 
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date()
       const targetDate = date
 
+      const daysToSum = -differenceInDays(targetDate, now)
+
       if (targetDate < now) {
-        targetDate.setDate(targetDate.getDate() + 7)
-        // ESTA MAL MUY MAL... ARREGLO MOMENTARIO
+        targetDate.setDate(targetDate.getDate() + daysToSum)
+        // ESTA MAL MUY MAL... ARREGLO MOMENTARIO Se agregan 3 horas por que las horas estan en -3 y el horario del hosting en 0.
         targetDate.setHours(targetDate.getHours() + 3)
-        setMessage('El siguiente capitulo sale en:')
+        setMessage('El siguiente capitulo se estrena en:')
       }
 
       const difference = targetDate - now
 
-      if (difference <= 0) {
+      if (difference < 0) {
         clearInterval(interval)
         setMessage('Ya no se encuentra en emision')
       } else {

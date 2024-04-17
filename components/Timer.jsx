@@ -45,7 +45,8 @@ const Timer = ({ date }) => {
         clearInterval(interval)
         setMessage('Ya no se encuentra en emision')
       } else {
-        const days = Math.floor(difference / DAY)
+        const days =
+          Math.floor(difference / DAY) === 7 ? 0 : Math.floor(difference / DAY)
         const hours = Math.floor((difference % DAY) / HOUR)
         const minutes = Math.floor((difference % HOUR) / MINUTE)
         const seconds = Math.floor((difference % MINUTE) / SECOND)

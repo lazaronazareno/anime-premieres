@@ -20,11 +20,7 @@ const Timer = ({ date }) => {
 
   function differenceInDays(targetDate, now) {
     const diff = targetDate - now
-    const diffInDays = Math.ceil(diff / DAY)
-    console.log(Math.ceil(diff / DAY))
-    console.log(Math.floor(diffInDays / 7) * 7)
-    console.log(Math.ceil(diffInDays / 7) * 7)
-    console.log(Math.round(diffInDays / 7) * 7)
+    const diffInDays = Math.floor(diff / DAY)
 
     return Math.floor(diffInDays / 7) * 7
   }
@@ -35,11 +31,9 @@ const Timer = ({ date }) => {
       const targetDate = date
 
       const daysToSum = -differenceInDays(targetDate, now)
-      console.log(daysToSum)
 
       if (targetDate < now) {
         targetDate.setDate(targetDate.getDate() + daysToSum)
-        if (daysToSum === 7) targetDate.setDate(targetDate.getDate() - 1)
         // ESTA MAL MUY MAL... ARREGLO MOMENTARIO Se agregan 3 horas por que las horas estan en -3 y el horario del hosting en 0.
         targetDate.setHours(targetDate.getHours() + 3)
         setMessage('El siguiente capitulo se estrena en:')
@@ -51,7 +45,8 @@ const Timer = ({ date }) => {
         clearInterval(interval)
         setMessage('Ya no se encuentra en emision')
       } else {
-        const days = Math.floor(difference / DAY)
+        const days =
+          Math.floor(difference / DAY) === 7 ? 0 : Math.floor(difference / DAY)
         const hours = Math.floor((difference % DAY) / HOUR)
         const minutes = Math.floor((difference % HOUR) / MINUTE)
         const seconds = Math.floor((difference % MINUTE) / SECOND)

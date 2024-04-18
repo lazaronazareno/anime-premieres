@@ -6,6 +6,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1758/141268.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=mqFMOYsOUcg",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/series/GYE5K3GQR/konosuba--gods-blessing-on-this-wonderful-world"
   },
   {
@@ -15,6 +16,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1136/141893.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=Tf31dGdlWxE",
+    "onAir": false,
     "infoUrl": "https: //www.crunchyroll.com/es/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
   },
   {
@@ -24,6 +26,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1876/141251.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=L5broLUI1m4",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation"
   },
   {
@@ -33,6 +36,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1587/141789.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=HaI4kX5gkPU",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime"
   },
   {
@@ -42,6 +46,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1399/141651.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=Suk6N56VDMQ",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/series/GY243NN0R/the-misfit-of-demon-king-academy"
   },
   {
@@ -51,6 +56,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1529/140306.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=IziwkeGaBaA",
+    "onAir": false,
     "infoUrl": "https://www.crunchyroll.com/es/series/G6NQ5DWZ6/my-hero-academia"
   },
   {
@@ -60,6 +66,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1580/141243.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=aK8Gtxw-9bE",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -69,6 +76,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1578/141782.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=dtWHRG3FzQ8",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -78,6 +86,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1370/140362.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=7n_mFVPeApw",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/series/GG5H5XQ7D/kaiju-no-8"
   },
   {
@@ -87,6 +96,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1100/142255.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=BFTlxoD1Szw",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/series/GRMGDGZVR/the-irregular-at-magic-high-school"
   },
   {
@@ -96,6 +106,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1763/139538.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=QCtat7cw8CU",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -105,6 +116,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1214/141711.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=MUn_fypkCfU",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -114,6 +126,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1805/142218.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=DuWQOwwI9z4",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -123,6 +136,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1158/141710.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=ciG19lWMsBs",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -132,6 +146,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1346/141203.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=M3lb8-qaaTk",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -141,6 +156,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1210/140340.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=jKNscVwATwI",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -150,6 +166,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1659/141438.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=xkbH8v2JFuk",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -159,6 +176,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1523/141680.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=Eks6OyQNoEU",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -168,6 +186,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1438/141816.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=7bdg-x1cMRA",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -177,6 +196,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1346/141783.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=xT3AryUklAk",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -186,6 +206,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1898/141857.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=VjeuqBstvdA",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -195,6 +216,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1676/141714.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=qwp85d_1VKI",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -204,6 +226,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1403/141861.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=y7wej3_qM9U",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -213,6 +236,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1670/141688.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=GeHpoLt-6n8",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -222,6 +246,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1646/141411.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=SYyAFIImIdA",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -231,6 +256,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1183/141489.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=17FpOu_2I04",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -240,6 +266,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1455/141858.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=ZHNkXrs3siQ",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -249,6 +276,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1833/141321.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=r98aLl_hMwo",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -258,6 +286,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1861/141482.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=ye1R9FKq0FE",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -267,6 +296,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1977/142049.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=LiweASOibE4",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -276,6 +306,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1136/141839.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=0IfvMDgeRjg",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -285,6 +316,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1216/142086.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=dzSh0bjmUVA",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -294,6 +326,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1505/141820.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=ibBNK47Fjgs",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -303,6 +336,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1739/140995.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=pGoc4_imTi0",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -312,6 +346,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1834/141827.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=aqxpcoUTyEQ",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -321,6 +356,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1253/141796.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=UKxaO-nqeNk",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -330,6 +366,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1254/141155.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=gcZXJ8cxDpM",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -339,6 +376,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1375/141863.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=Y5K4iljAppE",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -348,6 +386,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1272/139785.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=VlMzYDkJ2Qc",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -357,6 +396,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1711/140515.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=LYACbFOQDxw",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -366,6 +406,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1616/141932.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=Rd3w4aZpKdw",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -375,6 +416,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1372/141859.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=ZE_ZkK5sY3k",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -384,6 +426,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1224/137451.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=nSq3R-k6WZY",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -393,6 +436,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1538/141862.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=h9irlbBv8ng",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -402,6 +446,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1630/141499.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=EZhvPAfBZkE",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -411,6 +456,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1372/142242.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=5QCu65yQUps",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -420,6 +466,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1941/142048.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=yhWTqEku_KE",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -429,6 +476,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1274/140769.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=gUuQJEsNaDk",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -438,6 +486,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1058/141559.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=oH4zARVzXY0",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -447,6 +496,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1387/141515.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=0OQnmTbqiZI",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -456,6 +506,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1045/138898.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=6XoUU4kbVhA",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -465,6 +516,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1023/140587.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=u0JI7sZILGE",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -474,6 +526,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1816/141521.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=QpATW6FKis0",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   },
   {
@@ -483,6 +536,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1826/140574.webp",
     "description": "",
     "url": "https://www.youtube.com/watch?v=pSWESAdjtE0",
+    "onAir": true,
     "infoUrl": "https://www.crunchyroll.com/es/"
   }
 ]

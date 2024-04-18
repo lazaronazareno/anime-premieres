@@ -37,8 +37,8 @@ const About = () => {
           una archivo json como base de datos. A medida que vaya teniendo tiempo
           voy a crear una base de datos mysql o similar para ir cargando los
           estrenos con sus datos y luego la idea es poder seleccionar los animes
-          que estas mirando por temporada y que te exporte un almanaque para que
-          puedas mirarlo siempre que quieras.
+          que estas mirando por temporada y que te exporte un calendario para
+          que puedas mirarlo siempre que quieras.
         </p>
         <p>
           Si hay alguna duda podes comunicarte al siguiente mail{' '}

@@ -26,3 +26,17 @@ export async function getAnimeBySlug(slug) {
     throw new Error('Failed to fetch revenue data.')
   }
 }
+
+export async function getAllAnimeDates() {
+  try {
+    /*     await new Promise((resolve) => setTimeout(resolve, 3000))
+     */
+    const data =
+      await sql`SELECT name, premiere, image FROM anime WHERE anime.onAir`
+
+    return data.rows
+  } catch (error) {
+    console.error('Database Error:', error)
+    throw new Error('Failed to fetch revenue data.')
+  }
+}

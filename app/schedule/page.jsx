@@ -4,9 +4,9 @@ import ScheduleDay from '@/components/ScheduleDay'
 import ScheduleMobile from '@/components/ScheduleMobile'
 
 export const metadata = {
-  title: 'Calendario de Estrenos | Cuando Sale el anime...',
+  title: 'Calendario Animes de Temporada | Cuando Sale el anime...',
   description:
-    'Sobre Cuando Sale el Anime, informacion del autor, futuro y referencias.'
+    'Descubre que dia de la semana salen tus animes preferidos. Calendario Animes de Temporada 2024'
 }
 
 const Schedule = async () => {

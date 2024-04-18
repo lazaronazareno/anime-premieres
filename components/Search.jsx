@@ -2,7 +2,8 @@
 import { formatDateString } from '@/app/utils'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { Suspense, useState } from 'react'
+import React, { useState } from 'react'
+import ActionButton from './ActionButton'
 
 const Search = ({ animeList }) => {
   const [search, setSearch] = useState('')
@@ -13,9 +14,12 @@ const Search = ({ animeList }) => {
     const filteredList = animeList.filter((item) => {
       const lowerCaseName = item.name.toLowerCase()
       const lowerCaseSearch = search.toLowerCase()
-      return (
-        lowerCaseSearch.length >= 3 && lowerCaseName.includes(lowerCaseSearch)
-      )
+
+      if (lowerCaseSearch < 3) {
+        return animeList
+      } else {
+        return lowerCaseName.includes(lowerCaseSearch)
+      }
     })
     setFilteredList(filteredList)
   }
@@ -35,7 +39,16 @@ const Search = ({ animeList }) => {
         </button>
       </form>
       {animeList.length !== filteredList.length && (
-        <span className='text-2xl px-4 my-8 '>Resultados :</span>
+        <div className='flex justify-between items-center'>
+          <span className='text-2xl px-4 my-8 '>Resultados :</span>
+          <button
+            className='px-4 bg-orange-500 rounded text-black hover:bg-orange-800 hover:text-slate-100'
+            type='button'
+            onClick={() => setFilteredList(animeList)}
+          >
+            Borrar
+          </button>
+        </div>
       )}
       <div className='p-4 grid 2xl:grid-cols-4 lg:grid-cols-3 grid-cols-2 gap-2 items-center'>
         {filteredList.map((item) => (
@@ -45,7 +58,7 @@ const Search = ({ animeList }) => {
             key={item.slug}
           >
             <Image
-              className='w-full sm:w-24 sm:max-w-24 md:w-32 md:max-w-32 2xl:w-40 2xl:max-w-40 2xl:h-52 h-44 aspect-[2/1] '
+              className='w-full max-w-48 sm:w-24 sm:max-w-24 md:w-32 md:max-w-32 2xl:w-40 2xl:max-w-40 2xl:h-52 h-44 aspect-[2/1] '
               alt={item.name}
               src={item.image}
               width={100}

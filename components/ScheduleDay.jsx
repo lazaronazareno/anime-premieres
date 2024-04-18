@@ -12,7 +12,7 @@ const ScheduleDay = ({ animeList, day, color }) => {
             alt={item.name}
             src={item.image}
             width={100}
-            height={'100'}
+            height={60}
           />
           <h5 className='text-base'>{item.name}</h5>
         </div>

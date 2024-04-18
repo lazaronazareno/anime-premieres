@@ -24,7 +24,7 @@ const Header = ({}) => {
 
       <button
         type='button'
-        className='inline-flex items-center p-2 mr-1 w-10 h-10 justify-center text-sm text-gray-200 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600'
+        className='inline-flex items-center p-2 mr-1 w-10 h-10 justify-center text-sm text-gray-200 rounded-lg md:hidden hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-slate-800 dark:text-slate-200 dark:hover:bg-slate-800 dark:focus:ring-slate-700'
         onClick={handleToggle}
         title='Menu'
       >
@@ -49,14 +49,12 @@ const Header = ({}) => {
       <div
         className={`w-full md:flex md:w-4/6 md:justify-around items-center ${
           isOpen
-            ? 'absolute h-screen bg-slate-900 flex flex-col top-0 justify-evenly overflow-hidden '
+            ? 'fixed h-screen bg-slate-900 flex flex-col top-0 justify-evenly overflow-hidden '
             : 'hidden'
         } `}
       >
         <button
-          className={`md:hidden ${
-            isOpen ? 'absolute top-2 right-4 hover:text-orange-500' : 'hidden'
-          }'`}
+          className={`md:hidden ${isOpen ? '' : 'hidden'}'`}
           type='button'
           onClick={handleToggle}
           title='Cerrar Menu'
@@ -68,8 +66,8 @@ const Header = ({}) => {
             height='2rem'
             viewBox='0 0 24 24'
             className={`${
-              isOpen ? 'absolute top-2 right-4 hover:text-orange-500' : 'hidden'
-            }hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-gray-200`}
+              isOpen ? 'absolute top-2 right-2 hover:text-orange-500' : 'hidden'
+            } hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500`}
           >
             <path
               fill='currentColor'
@@ -78,14 +76,14 @@ const Header = ({}) => {
           </svg>
         </button>
         <Link
-          className={`hover:text-orange-500 ${
+          className={`${
             pathname === '/about'
               ? 'text-orange-500 border-y border-orange-500'
               : ''
           } ${
             isOpen
               ? 'w-full text-center py-4 hover:bg-orange-500 hover:text-black'
-              : ''
+              : 'hover:text-orange-500'
           }`}
           href={'/about'}
           onClick={() => setIsOpen(false)}
@@ -94,14 +92,14 @@ const Header = ({}) => {
         </Link>
 
         <Link
-          className={`hover:text-orange-500 ${
+          className={`${
             pathname === '/premieres'
               ? 'text-orange-500 border-y border-orange-500'
               : ''
           } ${
             isOpen
               ? 'w-full text-center py-4 hover:bg-orange-500 hover:text-black'
-              : ''
+              : 'hover:text-orange-500'
           }`}
           href={'/premieres'}
           onClick={() => setIsOpen(false)}
@@ -110,14 +108,14 @@ const Header = ({}) => {
         </Link>
 
         <Link
-          className={`hover:text-orange-500 ${
+          className={`${
             pathname === '/schedule'
               ? 'text-orange-500 border-y border-orange-500'
               : ''
           } ${
             isOpen
               ? 'w-full text-center py-4 hover:bg-orange-500 hover:text-black'
-              : ''
+              : 'hover:text-orange-500'
           }`}
           href={'/schedule'}
           onClick={() => setIsOpen(false)}

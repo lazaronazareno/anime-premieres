@@ -26,6 +26,7 @@ async function seedAnimeList(client) {
         description TEXT,
         url VARCHAR(255) NOT NULL,
         onAir BOOLEAN DEFAULT FALSE,
+        season VARCHAR(255),
         infoUrl VARCHAR(255)
       );
     `
@@ -36,8 +37,8 @@ async function seedAnimeList(client) {
     const insertedAnime = await Promise.all(
       animeList.map(
         (anime) => client.sql`
-        INSERT INTO anime (name, slug, premiere, image, description, url, onAir, infoUrl)
-        VALUES (${anime.name}, ${anime.slug}, TO_TIMESTAMP(${anime.premiere}, 'DD/MM/YYYY HH:MI AM'), ${anime.image}, ${anime.description}, ${anime.url}, ${anime.onAir}, ${anime.infoUrl})
+        INSERT INTO anime (name, slug, premiere, image, description, url, onAir, season, infoUrl)
+        VALUES (${anime.name}, ${anime.slug}, TO_TIMESTAMP(${anime.premiere}, 'DD/MM/YYYY HH:MI AM'), ${anime.image}, ${anime.description}, ${anime.url}, ${anime.onAir}, ${anime.season}, ${anime.infoUrl})
       `
       )
     )

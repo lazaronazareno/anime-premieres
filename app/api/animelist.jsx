@@ -3,9 +3,16 @@ import path from 'path'
 import { sql } from '@vercel/postgres'
 
 export async function getAllAnimes(req, res) {
+  /* const filePath = path.join(process.cwd(), './app/animeList.json')
+
+  const jsonData = await fsPromises.readFile(filePath)
+
+  const objectData = JSON.parse(jsonData)
+
+  return objectData */
   try {
-    /*     await new Promise((resolve) => setTimeout(resolve, 3000))
-     */
+    /* await new Promise((resolve) => setTimeout(resolve, 3000)) */
+
     const data = await sql`SELECT * FROM anime`
 
     return data.rows

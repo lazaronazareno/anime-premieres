@@ -2,11 +2,14 @@
 import { formatDateString } from '@/app/utils'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
-import ActionButton from './ActionButton'
+import React, { useEffect, useState } from 'react'
 
 const Search = ({ animeList }) => {
+  const seasons = animeList.map((item) => item.season)
+  const seasonsArray = [...new Set(seasons)]
+
   const [search, setSearch] = useState('')
+  const [season, setSeason] = useState(seasonsArray[0])
   const [filteredList, setFilteredList] = useState(animeList)
 
   const handleClick = (e) => {
@@ -24,6 +27,25 @@ const Search = ({ animeList }) => {
     setFilteredList(filteredList)
   }
 
+  const handleSelectSeason = (season) => {
+    setSeason((prev) => (prev = season))
+
+    const filteredList = animeList.filter((item) => {
+      const itemSeason = item.season
+
+      const seasonMatch = itemSeason.includes(season)
+
+      return seasonMatch
+    })
+
+    setFilteredList(filteredList)
+  }
+
+  useEffect(() => {
+    handleSelectSeason(season)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   return (
     <div className='py-16 text-xl'>
       <form onSubmit={handleClick} className='px-2 w-full flex justify-center'>
@@ -38,13 +60,34 @@ const Search = ({ animeList }) => {
           Buscar Anime
         </button>
       </form>
-      {animeList.length !== filteredList.length && (
+      {seasonsArray.length > 0 && (
+        <div className='flex justify-center gap-2 mt-2'>
+          {seasonsArray.map((item) => (
+            <span
+              value={item}
+              key={item}
+              onClick={() => handleSelectSeason(item)}
+              className={`${
+                item === season
+                  ? 'text-orange-500 border-b-[1px] border-orange-500'
+                  : ''
+              } cursor-pointer p-1`}
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+      )}
+      {animeList.length !== filteredList.length && search !== '' && (
         <div className='flex justify-between items-center'>
           <span className='text-2xl px-4 my-8 '>Resultados :</span>
           <button
             className='px-4 bg-orange-500 rounded text-black hover:bg-orange-800 hover:text-slate-100'
             type='button'
-            onClick={() => setFilteredList(animeList)}
+            onClick={() => {
+              setSearch('')
+              setFilteredList(animeList)
+            }}
           >
             Borrar
           </button>
@@ -70,6 +113,7 @@ const Search = ({ animeList }) => {
             </div>
           </Link>
         ))}
+        {filteredList.length === 0 && <span>No hay Resultados</span>}
       </div>
     </div>
   )

@@ -9,7 +9,7 @@ const Search = ({ animeList }) => {
   const seasonsArray = [...new Set(seasons)]
 
   const [search, setSearch] = useState('')
-  const [season, setSeason] = useState(seasonsArray[0])
+  const [season, setSeason] = useState(seasonsArray[seasonsArray.length - 2])
   const [filteredList, setFilteredList] = useState(animeList)
 
   const handleClick = (e) => {

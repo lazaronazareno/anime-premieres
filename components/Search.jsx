@@ -9,7 +9,7 @@ const Search = ({ animeList }) => {
   const seasonsArray = [...new Set(seasons)]
 
   const [search, setSearch] = useState('')
-  const [season, setSeason] = useState(seasonsArray[0])
+  const [season, setSeason] = useState(seasonsArray[seasonsArray.length - 2])
   const [filteredList, setFilteredList] = useState(animeList)
 
   const handleClick = (e) => {
@@ -101,11 +101,11 @@ const Search = ({ animeList }) => {
             key={item.slug}
           >
             <Image
-              className='w-full max-w-48 sm:w-24 sm:max-w-24 md:w-32 md:max-w-32 2xl:w-40 2xl:max-w-40 2xl:h-52 h-44 aspect-[2/1] '
+              className='w-full max-w-48 sm:w-32 sm:max-w-32 md:w-36 md:max-w-36 2xl:w-40 2xl:max-w-40 2xl:h-52 h-44 aspect-[2/1] '
               alt={item.name}
               src={item.image}
-              width={100}
-              height={60}
+              width={400}
+              height={'600'}
             />
             <div className='w-full flex flex-col gap-2 justify-center'>
               <p>{item.name}</p>

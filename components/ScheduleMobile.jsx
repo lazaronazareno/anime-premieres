@@ -87,11 +87,11 @@ const ScheduleMobileDay = ({ animeList, day }) => {
               }`}
             >
               <Image
-                className='w-auto h-auto'
+                className='w-32 h-40'
                 alt={item.name}
                 src={item.image}
-                width={100}
-                height={'100'}
+                width={400}
+                height={'600'}
               />
               <h5 className='text-base font-medium'>{item.name}</h5>
             </div>

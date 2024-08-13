@@ -3,6 +3,25 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React, { useState } from 'react'
 
+const ROUTES = [
+  {
+    name: '+ Info',
+    url: '/about'
+  },
+  {
+    name: 'Estrenos',
+    url: '/premieres'
+  },
+  {
+    name: 'Calendario',
+    url: '/schedule'
+  },
+  {
+    name: 'Yo',
+    url: '/custom-schedule'
+  }
+]
+
 const Header = ({}) => {
   const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
@@ -75,7 +94,25 @@ const Header = ({}) => {
             />
           </svg>
         </button>
-        <Link
+        {ROUTES.map((item) => (
+          <Link
+            key={item.url}
+            className={`${
+              pathname === item.url
+                ? 'text-orange-500 border-y border-orange-500'
+                : ''
+            } ${
+              isOpen
+                ? 'w-full text-center py-4 hover:bg-orange-500 hover:text-black'
+                : 'hover:text-orange-500'
+            }`}
+            href={item.url}
+            onClick={() => setIsOpen(false)}
+          >
+            {item.name}
+          </Link>
+        ))}
+        {/*         <Link
           className={`${
             pathname === '/about'
               ? 'text-orange-500 border-y border-orange-500'
@@ -121,7 +158,7 @@ const Header = ({}) => {
           onClick={() => setIsOpen(false)}
         >
           Calendario
-        </Link>
+        </Link> */}
       </div>
     </header>
   )

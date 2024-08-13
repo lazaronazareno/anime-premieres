@@ -39,7 +39,7 @@ export async function getAllAnimeDates() {
     /*     await new Promise((resolve) => setTimeout(resolve, 3000))
      */
     const data =
-      await sql`SELECT name, premiere, image FROM anime WHERE anime.onAir`
+      await sql`SELECT name, premiere, slug, image FROM anime WHERE anime.onAir`
 
     return data.rows
   } catch (error) {

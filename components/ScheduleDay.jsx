@@ -8,11 +8,11 @@ const ScheduleDay = ({ animeList, day, color }) => {
       {animeList.map((item) => (
         <div key={item.name} className='flex flex-col items-center'>
           <Image
-            className='w-auto h-auto'
+            className='w-32 h-40'
             alt={item.name}
             src={item.image}
-            width={100}
-            height={60}
+            width={400}
+            height={'600'}
           />
           <h5 className='text-base'>{item.name}</h5>
         </div>

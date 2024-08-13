@@ -16,7 +16,7 @@ const CustomSchedule = ({ animeList }) => {
     Domingo: []
   })
   const [showSelectedAnimes, setShowSelectedAnimes] = useState(false)
-  const [loading, setLoading] = useState(true)
+  const [animeLoading, setAnimeLoading] = useState(true)
 
   const getAnimePremiereDay = (anime) => {
     const daysOfWeek = [
@@ -77,11 +77,10 @@ const CustomSchedule = ({ animeList }) => {
     const savedAnimes = localStorage.getItem('selectedAnimes')
     if (savedAnimes) {
       setSelectedAnimes(JSON.parse(savedAnimes))
+      setAnimeLoading(false)
     }
-    return () => {
-      setLoading(false)
-    }
-  }, [loading])
+    setAnimeLoading(false)
+  }, [])
 
   return (
     <>
@@ -113,8 +112,8 @@ const CustomSchedule = ({ animeList }) => {
           </span>
         </label>
       </div>
-      {loading && <ScheduleAnimesSkeleton />}
-      {!loading && (
+      {animeLoading && <ScheduleAnimesSkeleton />}
+      {!animeLoading && (
         <>
           {showSelectedAnimes ? (
             <>

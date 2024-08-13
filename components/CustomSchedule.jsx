@@ -81,7 +81,7 @@ const CustomSchedule = ({ animeList }) => {
     return () => {
       setLoading(false)
     }
-  }, [])
+  }, [loading])
 
   return (
     <>
@@ -93,7 +93,7 @@ const CustomSchedule = ({ animeList }) => {
           <p className='has-tooltip relative cursor-help'>
             <span className='tooltip w-72 bg-orange-500 text-black font-semibold left-10 top-1 rounded'>
               {showSelectedAnimes
-                ? 'Los Animes acá son los que elegiste en la pestaña anterior.'
+                ? 'Los Animes acá son los que elegiste en la pestaña anterior. Recuerda guardar tus selecciones!'
                 : 'Selecciona los animes que quieres agregar a tu calendario. Si están más oscuros quiere decir que ya los agregaste.'}
             </span>
             <InfoIcon />
@@ -118,7 +118,7 @@ const CustomSchedule = ({ animeList }) => {
         <>
           {showSelectedAnimes ? (
             <>
-              <div className='md:grid md:grid-cols-7 md:grid-rows-1 gap-2'>
+              <div className='md:grid md:grid-cols-7 md:grid-rows-1 gap-2 mt-4'>
                 {Object.entries(selectedAnimes).map(([day, animes]) => (
                   <div className='flex flex-col items-center' key={day}>
                     <h4 className='text-xl border-b border-b-white mb-4 w-2/3'>

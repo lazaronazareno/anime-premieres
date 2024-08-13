@@ -90,8 +90,8 @@ const CustomSchedule = ({ animeList }) => {
           <h3 className='text-lg md:text-2xl font-semibold '>
             {showSelectedAnimes ? 'Mi calendario' : 'Animes en emisión'}
           </h3>
-          <p class='has-tooltip relative cursor-help'>
-            <span class='tooltip w-72 bg-orange-500 text-black font-semibold left-10 top-1 rounded'>
+          <p className='has-tooltip relative cursor-help'>
+            <span className='tooltip w-72 bg-orange-500 text-black font-semibold left-10 top-1 rounded'>
               {showSelectedAnimes
                 ? 'Los Animes acá son los que elegiste en la pestaña anterior.'
                 : 'Selecciona los animes que quieres agregar a tu calendario. Si están más oscuros quiere decir que ya los agregaste.'}

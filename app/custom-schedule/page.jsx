@@ -12,8 +12,8 @@ const Schedule = async () => {
   const animeList = await getAllAnimeDates()
 
   return (
-    <div className='w-full min-h-screen justify-center py-16 px-4 text-2xl flex flex-col md:gap-8 gap-4 text-center pb-24 md:pb-16'>
-      <h2 className='md:text-4xl border-b border-orange-500'>
+    <div className='w-full min-h-screen justify-center py-16 px-4 flex flex-col md:gap-6 gap-4 text-center pb-24 md:pb-16'>
+      <h2 className='md:text-4xl text-3xl pb-2 border-b border-orange-500'>
         ¡Armá tu Calendario de estrenos!
       </h2>
       <Suspense>

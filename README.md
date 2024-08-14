@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cuando Sale El Anime
 
-## Getting Started
+¿No sabes cuándo se estrena el anime que estás esperando? Aqui podrás obtener la fecha del estreno en japon y la hora aproximada en la que saldra en tu plataforma de streaming favorita.
 
-First, run the development server:
+[Podes visitar la página por aquí](https://cuando-sale-anime.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Captura de pantalla Home](https://i.ibb.co/2c07vv9/cs-ss1.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La idea que me motivo a realizar esta aplicación fue no saber en que momento exacto salía cada estreno, investigue un poco y los datos son accesibles pero no todas las páginas los muestran accesibles. Asi nacío la pagina deployada por completo en Vercel y actualizada (por ahora manualmente) cada 3 meses con nuevos registros. 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Vista Individual
+  
+![Captura de pantalla - Individual Oshi no Ko 2 Timer](https://i.ibb.co/mR0vcd9/cs-ss5.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Estrenos por temporada
+  
+![Captura de pantalla - Estrenos por temporada](https://i.ibb.co/88JW37t/cs-ss2.png)
 
-## Learn More
+- Cronograma
+  
+![Captura de pantalla - Calendario semanal](https://i.ibb.co/Bj6fW0n/cs-ss3.png)
 
-To learn more about Next.js, take a look at the following resources:
+- Armá tu Calendario
+  
+![](https://i.ibb.co/XC3WT6F/cs-ss4.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+El siguiente paso seria automatizar la recopilacion de datos de animes con la misma app y que cada vez que se anuncie un nuevo anime con fecha estimada poder cargarlo a la base de datos.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Hecho con NextJS, TailwindCSS, PostgreSQl
